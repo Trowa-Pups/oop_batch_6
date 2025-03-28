@@ -9,3 +9,4 @@ left_padding = (width - len(user_input)) // 2 #Uses //2 so that it doesnt output
 right_padding = ((width - len(user_input))) - left_padding 
                  
 #Print the input in the center within the given width
+print(" " * left_padding + user_input + " " * right_padding)
