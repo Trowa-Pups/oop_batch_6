@@ -2,5 +2,7 @@
 user_input = str(input("Please input your name or a sentence: "))
 
 #Ask the user the width of the text 
+width = int(input("Please input the width of the text: "))
+
 #Calculate the padding on both sides to the center
 #Print the input in the center within the given width
