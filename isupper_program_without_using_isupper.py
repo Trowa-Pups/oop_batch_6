@@ -2,10 +2,17 @@
 user_input = str(input("Please input your name or a sentence: "))
 
 #Check if the input is upper cased without using isupper()
-def uppercase_checker(user_input):
-    for character in user_input:
-        if 'A' <= character <= 'Z': #To check if the character is in uppercase
-
-    return uppercase_checker()
-        
 #Print "True" if it is all uppercase and "False" if not
+result = "" 
+
+for character in user_input:
+    if 'A' <= character <= 'Z': #To check if the character is in uppercase
+        result = "True"
+
+    else:
+        result = "False"
+
+print(result)
+
+#Removed def() aka the upperchase_checker because i realized the program is less complicated if it was removed
+        
