@@ -12,3 +12,4 @@ else:
     result = "False"
 
 #Print "True" if the prefix is there and "False" if not
+print(result)
