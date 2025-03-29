@@ -11,6 +11,7 @@ for character in user_input:
 
     else:
         result = "False"
+        break # I added this because it only reads the final character and it outputs True
 
 print(result)
 
