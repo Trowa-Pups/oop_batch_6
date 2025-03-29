@@ -6,3 +6,4 @@ character = str(input("Please input what character you want: "))
 number_of_characters = int(input("Please input how many characters: "))
 
 #Print the result 
+print(character * number_of_characters + user_input)
