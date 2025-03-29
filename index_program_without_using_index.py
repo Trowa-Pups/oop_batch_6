@@ -5,3 +5,9 @@ user_input = str(input("Please input your name or a sentence: "))
 word_input = str(input("Please input your word: "))
 
 #Print the position of the word in the input
+position = 1 
+
+for word in user_input.split():
+    if word == word_input:
+        print(f"Position: {position}")
+    position += 1
